@@ -25,7 +25,7 @@ namespace WpfWord
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Game_Click(object sender, RoutedEventArgs e)
         {
             new GameWindow().Show();
         }
