@@ -27,12 +27,8 @@ namespace WpfWord
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            new Game().Show();
+            new GameWindow().Show();
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            new Rules().ShowDialog();
-        }
     }
 }

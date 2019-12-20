@@ -73,12 +73,12 @@ namespace WpfWord
             log.Items.Add(eventInfo);
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Try_Click(object sender, RoutedEventArgs e)
         {
             game.TryGuess(playerWord.Text);
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void Again_Click_1(object sender, RoutedEventArgs e)
         {
             game.Refresh();
         }

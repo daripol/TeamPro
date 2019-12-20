@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfWord"
         mc:Ignorable="d"
-        Title="GameWindow" Height="450" Width="800">
-    <Grid>
+        Title="GameWindow" Height="476" Width="800">
+    <Grid Height="467">
         <ListView x:Name="log" HorizontalAlignment="Left" Height="132" Margin="129,169,0,0" VerticalAlignment="Top" Width="528" RenderTransformOrigin="0.5,0.5">
             <ListView.RenderTransform>
                 <TransformGroup>
@@ -23,7 +23,7 @@
             </ListView.View>
         </ListView>
         <TextBox x:Name="playerWord" HorizontalAlignment="Left" Height="23" Margin="129,306,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="528"/>
-        <Button Name="tryButton" Content="Попробовать угадать" HorizontalAlignment="Left" Margin="129,334,0,0" VerticalAlignment="Top" Width="528" Height="63" Click="Button_Click"/>
+        <Button Name="tryButton" Content="Попробовать угадать" HorizontalAlignment="Left" Margin="129,334,0,0" VerticalAlignment="Top" Width="528" Height="63" Click="Try_Click"/>
         <Label Content="Попытки:" HorizontalAlignment="Left" Margin="128,31,0,0" VerticalAlignment="Top"/>
         <Label Content="Комбо:" HorizontalAlignment="Left" Margin="128,62,0,0" VerticalAlignment="Top"/>
         <Label x:Name="attempts" HorizontalAlignment="Left" Margin="194,31,0,0" VerticalAlignment="Top" Width="71"/>
@@ -38,7 +38,7 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <Button Content="Начать заново" HorizontalAlignment="Left" Margin="129,416,0,0" VerticalAlignment="Top" Width="528" Height="30" Click="Button_Click_1"/>
+        <Button Content="Начать заново" HorizontalAlignment="Left" Margin="129,416,0,0" VerticalAlignment="Top" Width="528" Height="30" Click="Again_Click_1"/>
 
     </Grid>
 </Window>

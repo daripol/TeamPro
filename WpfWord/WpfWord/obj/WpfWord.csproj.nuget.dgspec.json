@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\noytik\\Source\\Repos\\daripol\\TeamPro\\WpfWord\\WpfWord\\WpfWord.csproj": {}
+    "C:\\Users\\noytik\\source\\repos\\daripol\\TeamPro\\WpfWord\\WpfWord\\WpfWord.csproj": {}
   },
   "projects": {
-    "C:\\Users\\noytik\\Source\\Repos\\daripol\\TeamPro\\WpfWord\\WpfWord\\WpfWord.csproj": {
+    "C:\\Users\\noytik\\source\\repos\\daripol\\TeamPro\\WpfWord\\WpfWord\\WpfWord.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\noytik\\Source\\Repos\\daripol\\TeamPro\\WpfWord\\WpfWord\\WpfWord.csproj",
+        "projectUniqueName": "C:\\Users\\noytik\\source\\repos\\daripol\\TeamPro\\WpfWord\\WpfWord\\WpfWord.csproj",
         "projectName": "WpfWord",
-        "projectPath": "C:\\Users\\noytik\\Source\\Repos\\daripol\\TeamPro\\WpfWord\\WpfWord\\WpfWord.csproj",
+        "projectPath": "C:\\Users\\noytik\\source\\repos\\daripol\\TeamPro\\WpfWord\\WpfWord\\WpfWord.csproj",
         "packagesPath": "C:\\Users\\noytik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\noytik\\Source\\Repos\\daripol\\TeamPro\\WpfWord\\WpfWord\\obj\\",
+        "outputPath": "C:\\Users\\noytik\\source\\repos\\daripol\\TeamPro\\WpfWord\\WpfWord\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
